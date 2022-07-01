@@ -42,6 +42,6 @@ def getPostById(request, post_id):
 
 @api_view(['GET'])
 def deletePost(request, post_id):
-    post = Posts.object.get(pk = post_id)
+    post = Posts.objects.get(pk = post_id)
     post.delete()
-    return Response("delete")
+    return Response({'message':'sucess', 'code' : 200})

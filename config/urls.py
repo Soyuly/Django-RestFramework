@@ -22,5 +22,5 @@ urlpatterns = [
     path('api/<int:post_id>', views.getPostById, name="getPostById"),
     path('api/create', views.createPosts, name="createPosts"),
     path('api/update', views.updatePosts, name="updatePosts"),
-    path('api/delete', views.deletePost, name="deletePost"),
+    path('api/delete/<int:post_id>', views.deletePost, name="deletePost"),
 ]
