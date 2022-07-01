@@ -48,6 +48,7 @@ Vary: Accept
     }
 ]
 ```
+<hr/>
 
 ### createPosts()
 - 요청방식 : post
@@ -78,6 +79,7 @@ http://127.0.0.1:8000/api/create/
     "pub_date": "2022-07-01T14:49:38.980197Z"
 }
 ```
+<hr/>
 
 ### updatePosts()
 - 요청방식 : post
@@ -109,6 +111,7 @@ http://127.0.0.1:8000/api/update
     "pub_date": "2022-07-01T14:49:38.980197Z"
 }
 ```
+<hr/>
 
 ### deletePosts()
 - 요청방식 : get
@@ -127,7 +130,7 @@ http://127.0.0.1:8000/api/update/5
     "code": 200
 }
 ```
-
+<hr/>
 
 ### getPostById()
 - 요청방식 : get
